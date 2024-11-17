@@ -8,7 +8,7 @@ public class IntegerTest {
     @Test
     public void testParseInt() {
         String validNumber = "123";
-        int expected = 123;
+        int expected = 128;
         int result = Integer.parseInt(validNumber);
         Assert.assertEquals(result, expected);
     }
